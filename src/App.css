@@ -146,3 +146,7 @@ body{
   background-color: rgba(27, 26, 26, 0.651);
   color: #e5e5e5;
 }
+
+.btn:hover{
+  background-color: rgba(128, 128, 128, 0.747);
+}
