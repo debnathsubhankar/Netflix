@@ -23,6 +23,7 @@ const Home = () => {
                 </div>
                 <TitleCard/>
             </div>
+           
         </div>
     </div>
   )
