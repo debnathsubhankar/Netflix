@@ -1,6 +1,8 @@
 import React, { useEffect, useRef } from 'react'
 import cardApi from './Pages/carsApi';
-const TitleCard = () => {
+
+
+const TitleCard = (props) => {
 
 const cardScroll= useRef();
 
@@ -15,7 +17,7 @@ cardScroll.current.addEventListener("wheel", handleScroll);
 
   return (
     <div className='card_list'>
-        <h2>Populer Moveis</h2>
+        <h2>{props.titel}</h2>
         <div className="lists" ref={cardScroll}>
            {
             cardApi.map((card, ind)=>{

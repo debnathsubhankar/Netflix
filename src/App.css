@@ -18,7 +18,7 @@ body{
   color: #e5e5e5;
   font-size: 14px;
   justify-content: space-between;
-  background-image: linear-gradient(180deg, rgba(0,0,0,0.7)10%, transparent);
+  background-image: linear-gradient(180deg, rgba(0,0,0,0.7)40%, transparent);
   z-index: 1;
 }
 
@@ -154,22 +154,23 @@ body{
 /* card styling (Titlecard) */
 
 .card_list{
-margin-top: 50px;
-margin-bottom: 30px;
-overflow-x: scroll;
+margin-top: 20px;
+margin-bottom: 20px;
+
 }
 
 .card_list h2{
   margin-bottom: 8px;
 }
 
-.card_list::-webkit-scrollbar{
+.lists::-webkit-scrollbar{
   display: none;
 }
 
 .lists{
   display: flex;
   gap: 20px;
+  overflow-x: scroll;
 }
 
 .card img{
@@ -178,4 +179,14 @@ overflow-x: scroll;
   cursor: pointer;
   border-radius: 4px;
 
+}
+
+.home{
+  height: 140vh;
+}
+
+.crd{
+  padding-left: 6%;
+  width: 100%;
+  bottom: 0;
 }

@@ -8,7 +8,7 @@ import TitleCard from '../TitleCard';
 
 const Home = () => {
   return (
-    <div>
+    <div className='home'>
         <Navbar/>
         <div className="hero">
             <img src={banar} alt="" className='hero_banar'/>
@@ -21,10 +21,18 @@ const Home = () => {
                   <button className='btn'><img src={play} alt="" />Play</button>
                   <button className='btn btn-dr'><img src={info} alt="" /> More Info</button>
                 </div>
+              
                 <TitleCard/>
+                
+               
             </div>
-           
         </div>
+        <div className="crd">
+        <TitleCard titel={"Blockblaster"}/>   
+        <TitleCard titel={"Only on Netflix"}/>   
+        <TitleCard titel={"Up coming"}/>   
+        </div>
+          
     </div>
   )
 }
