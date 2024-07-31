@@ -9,37 +9,17 @@ import image8 from "../../Assates/shaitan.jpg";
 import image9 from "../../Assates/tiger3.jpg";
 import image10 from "../../Assates/omg2.jpg";
 
-const cardApi =[
-    {image:image1,
-        name:"Tanhaji"
-    },
-    {image:image2,
-        name:"Bazaar"
-    },
-    {image:image3,
-        name:"Bhoot Police"
-    },
-    {image:image4,
-        name:"Dhadak"
-    },
-    {image:image5,
-        name:"Eighty Three"
-    },
-    {image:image6,
-        name:"Fighter"
-    },
-    {image:image7,
-        name:"Pathan"
-    },  
-    {image:image8,
-        name:"Saitan"
-    }, 
-     {image:image9,
-        name:"Tigher 3"
-    },
-    {image:image10,
-        name:"OMG 3"
-    },
-]
+const cardApi = [
+  { image: image1, name: "Tanhaji" },
+  { image: image2, name: "Bazaar" },
+  { image: image3, name: "Bhoot Police" },
+  { image: image4, name: "Dhadak" },
+  { image: image5, name: "Eighty Three" },
+  { image: image6, name: "Fighter" },
+  { image: image7, name: "Pathan" },
+  { image: image8, name: "Saitan" },
+  { image: image9, name: "Tigher 3" },
+  { image: image10, name: "OMG 3" },
+];
 
 export default cardApi;
