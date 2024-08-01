@@ -229,9 +229,95 @@ body {
 
 /* Login CSS */
 
-.log_com {
-  display: flex;
+.main_box {
   width: 100%;
-  padding: 6%;
-  background-image: url("/public/baner2.jpg");
+  padding-left: 6%;
+  background-image: linear-gradient(
+      rgba(80, 80, 80, 0.158),
+      rgba(0, 0, 0, 0.582)
+    ),
+    url("/public/baner2.jpg");
+  background-size: cover;
+}
+
+.head img {
+  width: 150px;
+}
+
+.log_box {
+  display: flex;
+  justify-content: center;
+}
+
+.log_box .card {
+  width: 350px;
+  height: 385px;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.603);
+  justify-content: center;
+  border-radius: 8px;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.card input {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 8px;
+  border-style: none;
+  background-color: #63616169;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+
+.card span {
+  display: inline-flex;
+  gap: 7px;
+}
+
+.card button {
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.card button:hover {
+  background-color: rgba(207, 203, 203, 0.671);
+}
+
+.switch_pg {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin: 8px 0;
+}
+
+.switch_pg span {
+  display: inline-flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.switch_pg span p {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(185, 181, 181);
+  margin-bottom: 5px;
+}
+
+.click {
+  text-decoration: underline;
+  font-weight: bold;
+  cursor: pointer;
 }
